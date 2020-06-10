@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 
 namespace genpass {
     class Program {
-        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz0123456789";
 
         static readonly RandomNumberGenerator rng = new RNGCryptoServiceProvider();
         static readonly Random r = new Random();
